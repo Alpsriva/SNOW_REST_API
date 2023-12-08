@@ -1,0 +1,451 @@
+{
+  "env": {
+    "lib": {
+      "presets": [
+        "@babel/preset-env",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@babel\\preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "app:static": {
+      "presets": [
+        "@babel/preset-env",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@babel\\preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "app:static:externals": {
+      "presets": [
+        "@babel/preset-env",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@babel\\preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "app:dynamic": {
+      "presets": [
+        "@babel/preset-env",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@babel\\preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "app:glide": {
+      "presets": [
+        "@babel/preset-env",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@babel\\preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "dist": {
+      "presets": [
+        "@babel/preset-env",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@babel\\preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "test": {
+      "presets": [
+        "@babel/preset-env",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@babel\\preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "develop": {
+      "presets": [
+        "@babel/preset-env",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@babel\\preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Alpana\\Learning\\SNOW\\rest_api\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    }
+  }
+}
