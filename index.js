@@ -1,1 +1,1 @@
-module.exports = {};
+import './x-801052-example-rest';
